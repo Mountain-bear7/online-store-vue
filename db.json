@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "image": "product-img3.png",
+      "name": "Iphone 14",
+      "price": 64500,
+      "article": "A1",
+      "category": "Iphone"
+    },
+    {
+      "image": "product-img4.png",
+      "name": "Iphone 14 Pro",
+      "price": 85400,
+      "article": "A2",
+      "category": "Iphone"
+    },
+    {
+      "image": "product-img5.png",
+      "name": "Apple Watch Series SE Gen",
+      "price": 25100,
+      "article": "A3",
+      "category": "Watch"
+    },
+    {
+      "image": "product-img6.png",
+      "name": "Apple Watch Ultra",
+      "price": 65600,
+      "article": "A4",
+      "category": "Watch"
+    },
+    {
+      "image": "product-img7.png",
+      "name": "Apple AirPods 3",
+      "price": 14990,
+      "article": "A5",
+      "category": "AirPods"
+    },
+    {
+      "image": "product-img8.png",
+      "name": "Apple AirPods 2",
+      "price": 10200,
+      "article": "A6",
+      "category": "AirPods"
+    }
+  ]
+}
