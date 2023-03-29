@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Cart</h1>
     <CartItem
         v-for="item in cart_data"
         :key="item.id"
@@ -11,16 +10,11 @@
 </template>
 
 <script>
-import CartItem from "@/components/Header/cart/cart-item/Cart-item.vue";
+import CartItem from "@/components/cart/cart-item/Cart-item.vue";
 import {mapActions} from "vuex";
-// import index from "vuex";
 export default {
   name: 'Cart-block',
-  // computed: {
-  //   index() {
-  //     return index
-  //   }
-  // },
+
   components:{
     CartItem
   },
@@ -34,7 +28,7 @@ export default {
   },
   methods:{
     ...mapActions([
-       'removeCart'
+      'removeCart'
     ]),
     removeProductCart(index){
       this.removeCart(index)
@@ -44,5 +38,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+h1{
+  text-align: center;
+}
 </style>

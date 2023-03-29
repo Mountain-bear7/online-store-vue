@@ -1,6 +1,5 @@
 <template>
-  <div class="main-page">
-<!--    <router-view></router-view>-->
+  <div>
     <HeaderBlock/>
     <CatalogBlock/>
   </div>
@@ -13,14 +12,12 @@ import CatalogBlock from "@/components/catalog/Catalog-block.vue";
 export default {
   name: 'mainPage',
   components: {
-    HeaderBlock,
-    CatalogBlock
-  },
+    CatalogBlock,
+    HeaderBlock
+  }
 }
 </script>
 
 <style scoped lang="scss">
-
-.main-page{ margin: 0 50px; }
 
 </style>
