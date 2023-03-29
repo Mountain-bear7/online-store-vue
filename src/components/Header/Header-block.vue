@@ -22,6 +22,5 @@ export default {
   .header{
     display: flex;
     justify-content: space-between;
-    //margin: 20px 24px;
   }
 </style>
